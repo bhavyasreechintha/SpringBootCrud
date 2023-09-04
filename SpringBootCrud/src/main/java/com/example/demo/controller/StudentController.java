@@ -49,7 +49,7 @@ public class StudentController {
 	  @DeleteMapping("/{id}")
 	    public String deleteProduct(@PathVariable int id) {
 	        this.service.deleteStudent(id);
-	        return "data deleted successfully";
+	        return "data deleted successfully  isdjsdsdn";
 	    }
 	  
 }
